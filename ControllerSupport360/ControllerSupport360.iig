@@ -1,0 +1,28 @@
+//
+//  ControllerSupport360.iig
+//  ControllerSupport360
+//
+//  Created by Skyler Calaman on 6/23/22.
+//
+
+#ifndef ControllerSupport360_h
+#define ControllerSupport360_h
+
+#include <Availability.h>
+#include <DriverKit/IOService.iig>
+#include <USBDriverKit/IOUSBHostInterface.iig>
+#include <USBDriverKit/IOUSBHostPipe.iig>
+//#include <USBDriverKit/USBDriverKitDefs.iig>
+
+class ControllerSupport360: public IOService {
+public:
+    virtual bool init() override;
+    virtual kern_return_t Start(IOService * provider) override;
+    virtual kern_return_t Stop(IOService *provider) override;
+    virtual void free() override;
+    
+protected:
+    virtual void ReadControllerInput(OSAction *action, IOReturn status, uint32_t actualByteCount, uint64_t completionTimestamp);
+};
+
+#endif /* ControllerSupport360_h */

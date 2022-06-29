@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF50AAD9286A524200C53C71 /* USBDriverKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF50AAD8286A524200C53C71 /* USBDriverKit.framework */; };
+		BF98C5A42868E36D004FEBB7 /* DriverManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF98C5A32868E36D004FEBB7 /* DriverManager.swift */; };
 		BFA9C6442867E70700AD8877 /* ControllerSupport360AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA9C6432867E70700AD8877 /* ControllerSupport360AppApp.swift */; };
 		BFA9C6462867E70700AD8877 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA9C6452867E70700AD8877 /* ContentView.swift */; };
 		BFA9C6482867E70800AD8877 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA9C6472867E70800AD8877 /* Assets.xcassets */; };
@@ -14,6 +16,10 @@
 		BFA9C6562867E70800AD8877 /* ControllerSupport360AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA9C6552867E70800AD8877 /* ControllerSupport360AppTests.swift */; };
 		BFA9C6602867E70800AD8877 /* ControllerSupport360AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA9C65F2867E70800AD8877 /* ControllerSupport360AppUITests.swift */; };
 		BFA9C6622867E70800AD8877 /* ControllerSupport360AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA9C6612867E70800AD8877 /* ControllerSupport360AppUITestsLaunchTests.swift */; };
+		BFA9C6762867E71D00AD8877 /* DriverKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA9C6752867E71D00AD8877 /* DriverKit.framework */; };
+		BFA9C6792867E71D00AD8877 /* ControllerSupport360.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFA9C6782867E71D00AD8877 /* ControllerSupport360.cpp */; };
+		BFA9C67B2867E71D00AD8877 /* ControllerSupport360.iig in Sources */ = {isa = PBXBuildFile; fileRef = BFA9C67A2867E71D00AD8877 /* ControllerSupport360.iig */; };
+		BFA9C6802867E71D00AD8877 /* dev.skyc.ControllerSupport360.dext in Embed System Extensions */ = {isa = PBXBuildFile; fileRef = BFA9C6732867E71D00AD8877 /* dev.skyc.ControllerSupport360.dext */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,9 +37,32 @@
 			remoteGlobalIDString = BFA9C63F2867E70700AD8877;
 			remoteInfo = ControllerSupport360App;
 		};
+		BFA9C67E2867E71D00AD8877 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFA9C6382867E70700AD8877 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFA9C6722867E71D00AD8877;
+			remoteInfo = ControllerSupport360;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		BFA9C6842867E71D00AD8877 /* Embed System Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(SYSTEM_EXTENSIONS_FOLDER_PATH)";
+			dstSubfolderSpec = 16;
+			files = (
+				BFA9C6802867E71D00AD8877 /* dev.skyc.ControllerSupport360.dext in Embed System Extensions */,
+			);
+			name = "Embed System Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		BF50AAD8286A524200C53C71 /* USBDriverKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = USBDriverKit.framework; path = Platforms/DriverKit.platform/Developer/SDKs/DriverKit21.4.sdk/System/DriverKit/System/Library/Frameworks/USBDriverKit.framework; sourceTree = DEVELOPER_DIR; };
+		BF98C5A32868E36D004FEBB7 /* DriverManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverManager.swift; sourceTree = "<group>"; };
 		BFA9C6402867E70700AD8877 /* ControllerSupport360App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ControllerSupport360App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFA9C6432867E70700AD8877 /* ControllerSupport360AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerSupport360AppApp.swift; sourceTree = "<group>"; };
 		BFA9C6452867E70700AD8877 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +74,12 @@
 		BFA9C65B2867E70800AD8877 /* ControllerSupport360AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ControllerSupport360AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFA9C65F2867E70800AD8877 /* ControllerSupport360AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerSupport360AppUITests.swift; sourceTree = "<group>"; };
 		BFA9C6612867E70800AD8877 /* ControllerSupport360AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerSupport360AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BFA9C6732867E71D00AD8877 /* dev.skyc.ControllerSupport360.dext */ = {isa = PBXFileReference; explicitFileType = "wrapper.driver-extension"; includeInIndex = 0; path = dev.skyc.ControllerSupport360.dext; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA9C6752867E71D00AD8877 /* DriverKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DriverKit.framework; path = System/Library/Frameworks/DriverKit.framework; sourceTree = SDKROOT; };
+		BFA9C6782867E71D00AD8877 /* ControllerSupport360.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ControllerSupport360.cpp; sourceTree = "<group>"; };
+		BFA9C67A2867E71D00AD8877 /* ControllerSupport360.iig */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.iig; path = ControllerSupport360.iig; sourceTree = "<group>"; };
+		BFA9C67C2867E71D00AD8877 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFA9C67D2867E71D00AD8877 /* ControllerSupport360.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ControllerSupport360.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +104,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BFA9C6702867E71D00AD8877 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF50AAD9286A524200C53C71 /* USBDriverKit.framework in Frameworks */,
+				BFA9C6762867E71D00AD8877 /* DriverKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +122,8 @@
 				BFA9C6422867E70700AD8877 /* ControllerSupport360App */,
 				BFA9C6542867E70800AD8877 /* ControllerSupport360AppTests */,
 				BFA9C65E2867E70800AD8877 /* ControllerSupport360AppUITests */,
+				BFA9C6772867E71D00AD8877 /* ControllerSupport360 */,
+				BFA9C6742867E71D00AD8877 /* Frameworks */,
 				BFA9C6412867E70700AD8877 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +134,7 @@
 				BFA9C6402867E70700AD8877 /* ControllerSupport360App.app */,
 				BFA9C6512867E70800AD8877 /* ControllerSupport360AppTests.xctest */,
 				BFA9C65B2867E70800AD8877 /* ControllerSupport360AppUITests.xctest */,
+				BFA9C6732867E71D00AD8877 /* dev.skyc.ControllerSupport360.dext */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,6 +147,7 @@
 				BFA9C6472867E70800AD8877 /* Assets.xcassets */,
 				BFA9C64C2867E70800AD8877 /* ControllerSupport360App.entitlements */,
 				BFA9C6492867E70800AD8877 /* Preview Content */,
+				BF98C5A32868E36D004FEBB7 /* DriverManager.swift */,
 			);
 			path = ControllerSupport360App;
 			sourceTree = "<group>";
@@ -129,7 +177,37 @@
 			path = ControllerSupport360AppUITests;
 			sourceTree = "<group>";
 		};
+		BFA9C6742867E71D00AD8877 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF50AAD8286A524200C53C71 /* USBDriverKit.framework */,
+				BFA9C6752867E71D00AD8877 /* DriverKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFA9C6772867E71D00AD8877 /* ControllerSupport360 */ = {
+			isa = PBXGroup;
+			children = (
+				BFA9C6782867E71D00AD8877 /* ControllerSupport360.cpp */,
+				BFA9C67A2867E71D00AD8877 /* ControllerSupport360.iig */,
+				BFA9C67C2867E71D00AD8877 /* Info.plist */,
+				BFA9C67D2867E71D00AD8877 /* ControllerSupport360.entitlements */,
+			);
+			path = ControllerSupport360;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BFA9C66E2867E71D00AD8877 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		BFA9C63F2867E70700AD8877 /* ControllerSupport360App */ = {
@@ -139,10 +217,12 @@
 				BFA9C63C2867E70700AD8877 /* Sources */,
 				BFA9C63D2867E70700AD8877 /* Frameworks */,
 				BFA9C63E2867E70700AD8877 /* Resources */,
+				BFA9C6842867E71D00AD8877 /* Embed System Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				BFA9C67F2867E71D00AD8877 /* PBXTargetDependency */,
 			);
 			name = ControllerSupport360App;
 			productName = ControllerSupport360App;
@@ -185,6 +265,24 @@
 			productReference = BFA9C65B2867E70800AD8877 /* ControllerSupport360AppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		BFA9C6722867E71D00AD8877 /* ControllerSupport360 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFA9C6812867E71D00AD8877 /* Build configuration list for PBXNativeTarget "ControllerSupport360" */;
+			buildPhases = (
+				BFA9C66E2867E71D00AD8877 /* Headers */,
+				BFA9C66F2867E71D00AD8877 /* Sources */,
+				BFA9C6702867E71D00AD8877 /* Frameworks */,
+				BFA9C6712867E71D00AD8877 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ControllerSupport360;
+			productName = ControllerSupport360;
+			productReference = BFA9C6732867E71D00AD8877 /* dev.skyc.ControllerSupport360.dext */;
+			productType = "com.apple.product-type.driver-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -206,6 +304,9 @@
 						CreatedOnToolsVersion = 13.4.1;
 						TestTargetID = BFA9C63F2867E70700AD8877;
 					};
+					BFA9C6722867E71D00AD8877 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
 				};
 			};
 			buildConfigurationList = BFA9C63B2867E70700AD8877 /* Build configuration list for PBXProject "ControllerSupport360App" */;
@@ -224,6 +325,7 @@
 				BFA9C63F2867E70700AD8877 /* ControllerSupport360App */,
 				BFA9C6502867E70800AD8877 /* ControllerSupport360AppTests */,
 				BFA9C65A2867E70800AD8877 /* ControllerSupport360AppUITests */,
+				BFA9C6722867E71D00AD8877 /* ControllerSupport360 */,
 			);
 		};
 /* End PBXProject section */
@@ -252,6 +354,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BFA9C6712867E71D00AD8877 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -259,6 +368,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF98C5A42868E36D004FEBB7 /* DriverManager.swift in Sources */,
 				BFA9C6462867E70700AD8877 /* ContentView.swift in Sources */,
 				BFA9C6442867E70700AD8877 /* ControllerSupport360AppApp.swift in Sources */,
 			);
@@ -281,6 +391,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BFA9C66F2867E71D00AD8877 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA9C6792867E71D00AD8877 /* ControllerSupport360.cpp in Sources */,
+				BFA9C67B2867E71D00AD8877 /* ControllerSupport360.iig in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -293,6 +412,11 @@
 			isa = PBXTargetDependency;
 			target = BFA9C63F2867E70700AD8877 /* ControllerSupport360App */;
 			targetProxy = BFA9C65C2867E70800AD8877 /* PBXContainerItemProxy */;
+		};
+		BFA9C67F2867E71D00AD8877 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFA9C6722867E71D00AD8877 /* ControllerSupport360 */;
+			targetProxy = BFA9C67E2867E71D00AD8877 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -416,11 +540,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = ControllerSupport360App/ControllerSupport360App.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ControllerSupport360App/Preview Content\"";
-				DEVELOPMENT_TEAM = RRMKB2M93D;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -432,6 +556,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dec.skyc.ControllerSupport360App;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -443,11 +568,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = ControllerSupport360App/ControllerSupport360App.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ControllerSupport360App/Preview Content\"";
-				DEVELOPMENT_TEAM = RRMKB2M93D;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -459,6 +584,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dec.skyc.ControllerSupport360App;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -536,6 +662,56 @@
 			};
 			name = Release;
 		};
+		BFA9C6822867E71D00AD8877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ControllerSupport360/ControllerSupport360.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RRMKB2M93D;
+				DRIVERKIT_DEPLOYMENT_TARGET = 21.4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/System/DriverKit/System/Library/Frameworks",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ControllerSupport360/Info.plist;
+				INFOPLIST_KEY_OSBundleUsageDescription = "";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.skyc.ControllerSupport360;
+				PRODUCT_NAME = "$(inherited)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = driverkit;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		BFA9C6832867E71D00AD8877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ControllerSupport360/ControllerSupport360.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RRMKB2M93D;
+				DRIVERKIT_DEPLOYMENT_TARGET = 21.4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/System/DriverKit/System/Library/Frameworks",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ControllerSupport360/Info.plist;
+				INFOPLIST_KEY_OSBundleUsageDescription = "";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.skyc.ControllerSupport360;
+				PRODUCT_NAME = "$(inherited)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = driverkit;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -571,6 +747,15 @@
 			buildConfigurations = (
 				BFA9C66C2867E70800AD8877 /* Debug */,
 				BFA9C66D2867E70800AD8877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFA9C6812867E71D00AD8877 /* Build configuration list for PBXNativeTarget "ControllerSupport360" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA9C6822867E71D00AD8877 /* Debug */,
+				BFA9C6832867E71D00AD8877 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
