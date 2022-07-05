@@ -1,0 +1,23 @@
+//
+//  ControllerClient.iig
+//  ControllerSupport360App
+//
+//  Created by Skyler Calaman on 7/3/22.
+//
+
+#ifndef ControllerClient_h
+#define ControllerClient_h
+
+#include <Availability.h>
+#include <DriverKit/IOService.iig>
+#include <HIDDriverKit/HIDDriverKitDefs.h>
+
+class ControllerDevice: public IOService {
+public:
+    virtual bool init() override;
+    virtual kern_return_t Start(IOService * provider) override;
+    virtual kern_return_t Stop(IOService *provider) override;
+    virtual void free() override;
+};
+
+#endif /* ControllerClient_h */

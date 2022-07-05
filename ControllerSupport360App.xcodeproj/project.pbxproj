@@ -61,6 +61,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BF0DB62228722E8200B042C1 /* ControllerDevice.iig */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.iig; path = ControllerDevice.iig; sourceTree = "<group>"; };
 		BF50AAD8286A524200C53C71 /* USBDriverKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = USBDriverKit.framework; path = Platforms/DriverKit.platform/Developer/SDKs/DriverKit21.4.sdk/System/DriverKit/System/Library/Frameworks/USBDriverKit.framework; sourceTree = DEVELOPER_DIR; };
 		BF98C5A32868E36D004FEBB7 /* DriverManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverManager.swift; sourceTree = "<group>"; };
 		BFA9C6402867E70700AD8877 /* ControllerSupport360App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ControllerSupport360App.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -193,6 +194,7 @@
 				BFA9C67A2867E71D00AD8877 /* ControllerSupport360.iig */,
 				BFA9C67C2867E71D00AD8877 /* Info.plist */,
 				BFA9C67D2867E71D00AD8877 /* ControllerSupport360.entitlements */,
+				BF0DB62228722E8200B042C1 /* ControllerDevice.iig */,
 			);
 			path = ControllerSupport360;
 			sourceTree = "<group>";
