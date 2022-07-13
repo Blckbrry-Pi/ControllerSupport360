@@ -80,6 +80,10 @@ typedef struct MainButtonState {
     bool a;
 } MainButtonState;
 
+typedef struct JoystickState {
+    int16_t x;
+    int16_t y;
+} JoystickState;
 
 typedef struct ControllerState {
     bool r3;
@@ -92,6 +96,12 @@ typedef struct ControllerState {
     bool xbox;
     bool r_bump;
     bool l_bump;
+    
+    uint8_t l_trigger;
+    uint8_t r_trigger;
+    
+    JoystickState l_joystick;
+    JoystickState r_joystick;
 } ControllerState;
 
 struct ControllerSupport360_IVars {
@@ -135,6 +145,14 @@ ControllerState controller_data_to_state(ControllerData data_struct) {
     state.r_bump         = (data[3] & 0b00000010) != 0;
     state.l_bump         = (data[3] & 0b00000001) != 0;
     
+    state.l_trigger = data[4];
+    state.r_trigger = data[5];
+    
+    state.l_joystick.x = (data[ 7] << 8) + data[ 6];
+    state.l_joystick.y = (data[ 9] << 8) + data[ 8];
+    state.r_joystick.x = (data[11] << 8) + data[10];
+    state.r_joystick.y = (data[13] << 8) + data[12];
+    
     return state;
 }
 
@@ -170,6 +188,14 @@ void log_controller_state(ControllerState state) {
            main_buttons_y, main_buttons_x, main_buttons_b, main_buttons_a,
            xbox,
            r_bump, l_bump);
+    os_log(
+           OS_LOG_DEFAULT,
+           "lt: %{public}u   rt: %{public}u   ljoy: (%{public}d, %{public}d)   rjoy: (%{public}d, %{public}d)",
+           state.l_trigger,
+           state.r_trigger,
+           state.l_joystick.x, state.l_joystick.y,
+           state.r_joystick.x, state.r_joystick.y
+           );
 }
 
 ControlPipes apply_control_data_interface_endpoints(const IOUSBConfigurationDescriptor *configurationDescriptor, const IOUSBInterfaceDescriptor *interfaceDescriptor);
@@ -342,13 +368,13 @@ void IMPL(ControllerSupport360, ReadControllerInput) {
     kern_return_t ret;
     IOAddressSegment segment;
     
-    if (!++ivars->main_data_input.iters) {
-        uint64_t new_time = clock_gettime_nsec_np(CLOCK_UPTIME_RAW);
-        uint64_t diff = new_time - ivars->main_data_input.prev_nanos;
-        ivars->main_data_input.prev_nanos = new_time;
-        uint64_t fps = 1000000000ull * 256ull / diff;
-        os_log(OS_LOG_DEFAULT, "predicted FPS: 0x%{public}llu", fps);
-    }
+//    if (!++ivars->main_data_input.iters) {
+//        uint64_t new_time = clock_gettime_nsec_np(CLOCK_UPTIME_RAW);
+//        uint64_t diff = new_time - ivars->main_data_input.prev_nanos;
+//        ivars->main_data_input.prev_nanos = new_time;
+//        uint64_t fps = 1000000000ull * 256ull / diff;
+//        os_log(OS_LOG_DEFAULT, "predicted FPS: 0x%{public}llu", fps);
+//    }
     
     // Get the address and length of the read data.
     ret = ivars->main_data_input.in_data->GetAddressRange(&segment);
@@ -360,7 +386,7 @@ void IMPL(ControllerSupport360, ReadControllerInput) {
     
     ControllerState state = controller_data_to_state(data);
 
-    
+    log_controller_state(state);
     
     ret = ivars->main_data_input.in_pipe->AsyncIO(ivars->main_data_input.in_data, ivars->main_data_input.max_packet_size, ivars->main_data_input.handler, 0);
     if (ret != kIOReturnSuccess) {

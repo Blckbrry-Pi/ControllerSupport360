@@ -4,13 +4,6 @@
 <dict>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>ControllerClientProperties</key>
-		<dict>
-			<key>IOUserClass</key>
-			<string>ControllerDevice</string>
-			<key>IOClass</key>
-			<string>IOUserHIDDevice</string>
-		</dict>
 		<key>AfterglowGamepad1</key>
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
