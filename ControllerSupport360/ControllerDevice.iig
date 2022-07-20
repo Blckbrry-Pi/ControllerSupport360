@@ -12,7 +12,7 @@
 #include <DriverKit/IOService.iig>
 #include <HIDDriverKit/HIDDriverKitDefs.h>
 
-class ControllerDevice: public IOService {
+class ControllerDevice: public IOUserHIDEventService {
 public:
     virtual bool init() override;
     virtual kern_return_t Start(IOService * provider) override;
