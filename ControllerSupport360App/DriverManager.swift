@@ -14,7 +14,6 @@ class DriverManager : NSObject, OSSystemExtensionRequestDelegate {
     static let shared = DriverManager()
     
     func activate() {
-        deactivate()
         os_log("attempting to activate...")
         let activationRequest = OSSystemExtensionRequest.activationRequest(forExtensionWithIdentifier: "dev.skyc.ControllerSupport360", queue: .main)
         activationRequest.delegate = self
