@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF2A40E1288856360065755C /* ControllerDevice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF2A40DF288856360065755C /* ControllerDevice.cpp */; };
+		BF4F5C7E288859B400FCF861 /* ControllerDevice.iig in Sources */ = {isa = PBXBuildFile; fileRef = BF2A40E3288857C00065755C /* ControllerDevice.iig */; };
 		BF50AAD9286A524200C53C71 /* USBDriverKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF50AAD8286A524200C53C71 /* USBDriverKit.framework */; };
 		BF98C5A42868E36D004FEBB7 /* DriverManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF98C5A32868E36D004FEBB7 /* DriverManager.swift */; };
 		BFA9C6442867E70700AD8877 /* ControllerSupport360AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA9C6432867E70700AD8877 /* ControllerSupport360AppApp.swift */; };
@@ -20,6 +22,11 @@
 		BFA9C6792867E71D00AD8877 /* ControllerSupport360.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFA9C6782867E71D00AD8877 /* ControllerSupport360.cpp */; };
 		BFA9C67B2867E71D00AD8877 /* ControllerSupport360.iig in Sources */ = {isa = PBXBuildFile; fileRef = BFA9C67A2867E71D00AD8877 /* ControllerSupport360.iig */; };
 		BFA9C6802867E71D00AD8877 /* dev.skyc.ControllerSupport360.dext in Embed System Extensions */ = {isa = PBXBuildFile; fileRef = BFA9C6732867E71D00AD8877 /* dev.skyc.ControllerSupport360.dext */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BFAF94422896D20F00248A30 /* logging.h in Headers */ = {isa = PBXBuildFile; fileRef = BFAF94412896D01900248A30 /* logging.h */; };
+		BFAF94452896EB4E00248A30 /* sharedstructs.h in Headers */ = {isa = PBXBuildFile; fileRef = BFAF94442896EB4A00248A30 /* sharedstructs.h */; };
+		BFAF94482897184700248A30 /* usbutils.h in Headers */ = {isa = PBXBuildFile; fileRef = BFAF94462896F25800248A30 /* usbutils.h */; };
+		BFAF94492897184E00248A30 /* logformatting.h in Headers */ = {isa = PBXBuildFile; fileRef = BFAF94432896E47000248A30 /* logformatting.h */; };
+		BFF50E6F288866F300B2CFCB /* HIDDriverKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF50E6E288866F200B2CFCB /* HIDDriverKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +68,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		BF0DB62228722E8200B042C1 /* ControllerDevice.iig */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.iig; path = ControllerDevice.iig; sourceTree = "<group>"; };
+		BF2A40DF288856360065755C /* ControllerDevice.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ControllerDevice.cpp; sourceTree = "<group>"; };
+		BF2A40E3288857C00065755C /* ControllerDevice.iig */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.iig; path = ControllerDevice.iig; sourceTree = "<group>"; };
 		BF50AAD8286A524200C53C71 /* USBDriverKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = USBDriverKit.framework; path = Platforms/DriverKit.platform/Developer/SDKs/DriverKit21.4.sdk/System/DriverKit/System/Library/Frameworks/USBDriverKit.framework; sourceTree = DEVELOPER_DIR; };
 		BF98C5A32868E36D004FEBB7 /* DriverManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverManager.swift; sourceTree = "<group>"; };
 		BFA9C6402867E70700AD8877 /* ControllerSupport360App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ControllerSupport360App.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,6 +89,11 @@
 		BFA9C67A2867E71D00AD8877 /* ControllerSupport360.iig */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.iig; path = ControllerSupport360.iig; sourceTree = "<group>"; };
 		BFA9C67C2867E71D00AD8877 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFA9C67D2867E71D00AD8877 /* ControllerSupport360.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ControllerSupport360.entitlements; sourceTree = "<group>"; };
+		BFAF94412896D01900248A30 /* logging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = logging.h; path = ControllerSupport360/headerlibraries/logging.h; sourceTree = SOURCE_ROOT; };
+		BFAF94432896E47000248A30 /* logformatting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = logformatting.h; path = ControllerSupport360/headerlibraries/logformatting.h; sourceTree = SOURCE_ROOT; };
+		BFAF94442896EB4A00248A30 /* sharedstructs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sharedstructs.h; path = ControllerSupport360/headerlibraries/sharedstructs.h; sourceTree = SOURCE_ROOT; };
+		BFAF94462896F25800248A30 /* usbutils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = usbutils.h; path = ControllerSupport360/headerlibraries/usbutils.h; sourceTree = SOURCE_ROOT; };
+		BFF50E6E288866F200B2CFCB /* HIDDriverKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HIDDriverKit.framework; path = Platforms/DriverKit.platform/Developer/SDKs/DriverKit21.4.sdk/System/DriverKit/System/Library/Frameworks/HIDDriverKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +124,7 @@
 			files = (
 				BF50AAD9286A524200C53C71 /* USBDriverKit.framework in Frameworks */,
 				BFA9C6762867E71D00AD8877 /* DriverKit.framework in Frameworks */,
+				BFF50E6F288866F300B2CFCB /* HIDDriverKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +195,7 @@
 		BFA9C6742867E71D00AD8877 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BFF50E6E288866F200B2CFCB /* HIDDriverKit.framework */,
 				BF50AAD8286A524200C53C71 /* USBDriverKit.framework */,
 				BFA9C6752867E71D00AD8877 /* DriverKit.framework */,
 			);
@@ -190,13 +205,42 @@
 		BFA9C6772867E71D00AD8877 /* ControllerSupport360 */ = {
 			isa = PBXGroup;
 			children = (
-				BFA9C6782867E71D00AD8877 /* ControllerSupport360.cpp */,
-				BFA9C67A2867E71D00AD8877 /* ControllerSupport360.iig */,
+				BFAF9447289717BB00248A30 /* headerlibraries */,
 				BFA9C67C2867E71D00AD8877 /* Info.plist */,
 				BFA9C67D2867E71D00AD8877 /* ControllerSupport360.entitlements */,
-				BF0DB62228722E8200B042C1 /* ControllerDevice.iig */,
+				BFAF944A2897185E00248A30 /* Base Driver */,
+				BFAF944B2897187700248A30 /* HID Device */,
 			);
 			path = ControllerSupport360;
+			sourceTree = "<group>";
+		};
+		BFAF9447289717BB00248A30 /* headerlibraries */ = {
+			isa = PBXGroup;
+			children = (
+				BFAF94412896D01900248A30 /* logging.h */,
+				BFAF94432896E47000248A30 /* logformatting.h */,
+				BFAF94442896EB4A00248A30 /* sharedstructs.h */,
+				BFAF94462896F25800248A30 /* usbutils.h */,
+			);
+			path = headerlibraries;
+			sourceTree = "<group>";
+		};
+		BFAF944A2897185E00248A30 /* Base Driver */ = {
+			isa = PBXGroup;
+			children = (
+				BFA9C6782867E71D00AD8877 /* ControllerSupport360.cpp */,
+				BFA9C67A2867E71D00AD8877 /* ControllerSupport360.iig */,
+			);
+			path = "Base Driver";
+			sourceTree = "<group>";
+		};
+		BFAF944B2897187700248A30 /* HID Device */ = {
+			isa = PBXGroup;
+			children = (
+				BF2A40DF288856360065755C /* ControllerDevice.cpp */,
+				BF2A40E3288857C00065755C /* ControllerDevice.iig */,
+			);
+			path = "HID Device";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,6 +250,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFAF94452896EB4E00248A30 /* sharedstructs.h in Headers */,
+				BFAF94422896D20F00248A30 /* logging.h in Headers */,
+				BFAF94492897184E00248A30 /* logformatting.h in Headers */,
+				BFAF94482897184700248A30 /* usbutils.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,7 +446,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFA9C6792867E71D00AD8877 /* ControllerSupport360.cpp in Sources */,
+				BF2A40E1288856360065755C /* ControllerDevice.cpp in Sources */,
 				BFA9C67B2867E71D00AD8877 /* ControllerSupport360.iig in Sources */,
+				BF4F5C7E288859B400FCF861 /* ControllerDevice.iig in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -680,6 +730,7 @@
 				INFOPLIST_FILE = ControllerSupport360/Info.plist;
 				INFOPLIST_KEY_OSBundleUsageDescription = "";
 				MARKETING_VERSION = 1.0;
+				OTHER_CFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = dev.skyc.ControllerSupport360;
 				PRODUCT_NAME = "$(inherited)";
 				RUN_CLANG_STATIC_ANALYZER = YES;
@@ -701,6 +752,7 @@
 					"$(inherited)",
 					"$(SDKROOT)/System/DriverKit/System/Library/Frameworks",
 				);
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ControllerSupport360/Info.plist;
 				INFOPLIST_KEY_OSBundleUsageDescription = "";

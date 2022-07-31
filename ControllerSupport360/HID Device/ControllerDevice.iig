@@ -1,23 +1,24 @@
 //
-//  ControllerClient.iig
+//  ControllerDevice.iig
 //  ControllerSupport360App
 //
 //  Created by Skyler Calaman on 7/3/22.
 //
 
-#ifndef ControllerClient_h
-#define ControllerClient_h
+#ifndef ControllerDevice_h
+#define ControllerDevice_h
 
 #include <Availability.h>
 #include <DriverKit/IOService.iig>
-#include <HIDDriverKit/HIDDriverKitDefs.h>
+#include <HIDDriverKit/IOUserHIDEventService.iig>
 
 class ControllerDevice: public IOUserHIDEventService {
 public:
     virtual bool init() override;
     virtual kern_return_t Start(IOService * provider) override;
+    
     virtual kern_return_t Stop(IOService *provider) override;
     virtual void free() override;
 };
 
-#endif /* ControllerClient_h */
+#endif /* ControllerDevice_h */

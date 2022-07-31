@@ -5,8 +5,14 @@
 //  Created by Skyler Calaman on 6/23/22.
 //
 
+#include "ControllerSupport360.h"
+#include "ControllerDevice.h"
+
 #include <os/log.h>
-#include <chrono>
+#include "logging.h"
+
+#include "sharedstructs.h"
+#include "usbutils.h"
 
 #include <DriverKit/IOUserServer.h>
 #include <DriverKit/IOLib.h>
@@ -14,14 +20,13 @@
 #include <USBDriverKit/USBDriverKitDefs.h>
 #include <USBDriverKit/AppleUSBDescriptorParsing.h>
 
-#include "ControllerSupport360.h"
 
-#define LOG_CURR_FUNC() os_log(OS_LOG_DEFAULT, "%{public}s", __FUNCTION__)
+#define LOG_CURR_FUNC(LEVEL) level_aware_log(LEVEL, "%{public}s", __FUNCTION__)
 
 #define RETURN_TRAP(VARIABLE, TARG_VALUE, STATEMENT) do { \
     if (VARIABLE != TARG_VALUE) { \
         STATEMENT; \
-        os_log(OS_LOG_DEFAULT, "%{public}s on line: %{public}d", "returning...", __LINE__); \
+        level_aware_log(DEBUG_LOG, "%{public}s on line: %{public}d", "returning...", __LINE__); \
         return VARIABLE; \
     }\
 } while (0)
@@ -32,23 +37,15 @@
 
 #define EXIT_WITH_TARGET(TARGET) { \
     free_ivars(this, ivars); \
-    STOP; \
-    ret = TARGET; \
+    Stop(this); \
+    level_aware_log(DEBUG_LOG, "%{public}s on line: %{public}d", "returning...", __LINE__); \
+    return TARGET; \
 }
 
 #define EXIT_UNSPEC_TARGET() { \
     free_ivars(this, ivars); \
-    STOP; \
+    Stop(this); \
 }
-
-#define OS_LOG_BASIC_STRING(STRING)
-
-typedef struct ControlPipes {
-    uint8_t input;
-    uint16_t input_max_packet_size;
-    uint8_t output;
-    uint16_t output_max_packet_size;
-} ControlPipes;
 
 
 typedef struct ControlDataInput {
@@ -64,45 +61,6 @@ typedef struct ControlDataOutput {
     IOUSBHostPipe            *out_pipe;
 } ControlDataOutput;
 
-typedef struct ControllerData { unsigned char data[0x14]; } ControllerData;
-
-typedef struct DPadState {
-    bool dpadr;
-    bool dpadl;
-    bool dpadd;
-    bool dpadu;
-} DPadState;
-
-typedef struct MainButtonState {
-    bool y;
-    bool x;
-    bool b;
-    bool a;
-} MainButtonState;
-
-typedef struct JoystickState {
-    int16_t x;
-    int16_t y;
-} JoystickState;
-
-typedef struct ControllerState {
-    bool r3;
-    bool l3;
-    bool back;
-    bool start;
-    DPadState dpad;
-    MainButtonState main_buttons;
-    bool unused;
-    bool xbox;
-    bool r_bump;
-    bool l_bump;
-    
-    uint8_t l_trigger;
-    uint8_t r_trigger;
-    
-    JoystickState l_joystick;
-    JoystickState r_joystick;
-} ControllerState;
 
 struct ControllerSupport360_IVars {
     IOUSBHostDevice *device;
@@ -111,94 +69,12 @@ struct ControllerSupport360_IVars {
     IOUSBHostInterface *headset_interface;
     
     ControlDataInput main_data_input;
+    
+    IOUserHIDEventService *hid_device;
 };
 
-#define DECL_BUTTON(STATE, PROPERTY) const char *PROPERTY = STATE.PROPERTY ? #PROPERTY ", " : ""
 
-#define DECL_BUTTON_NESTED(STATE, PROPERTY, SUB_PROP) \
-const char *PROPERTY ## _ ## SUB_PROP = STATE.PROPERTY.SUB_PROP ? #PROPERTY ">" #SUB_PROP ", " : ""
 
-ControllerState controller_data_to_state(ControllerData data_struct) {
-    unsigned char *data = data_struct.data;
-    ControllerState state = ControllerState{
-        0,0,0,0,
-        DPadState { 0,0,0,0, },
-        MainButtonState { 0,0,0,0, },
-        0,0,0,0,
-    };
-    
-    state.r3         = (data[2] & 0b10000000) != 0;
-    state.l3         = (data[2] & 0b01000000) != 0;
-    state.back       = (data[2] & 0b00100000) != 0;
-    state.start      = (data[2] & 0b00010000) != 0;
-    state.dpad.dpadr = (data[2] & 0b00001000) != 0;
-    state.dpad.dpadl = (data[2] & 0b00000100) != 0;
-    state.dpad.dpadd = (data[2] & 0b00000010) != 0;
-    state.dpad.dpadu = (data[2] & 0b00000001) != 0;
-    
-    state.main_buttons.y = (data[3] & 0b10000000) != 0;
-    state.main_buttons.x = (data[3] & 0b01000000) != 0;
-    state.main_buttons.b = (data[3] & 0b00100000) != 0;
-    state.main_buttons.a = (data[3] & 0b00010000) != 0;
-    state.unused         = (data[3] & 0b00001000) != 0;
-    state.xbox           = (data[3] & 0b00000100) != 0;
-    state.r_bump         = (data[3] & 0b00000010) != 0;
-    state.l_bump         = (data[3] & 0b00000001) != 0;
-    
-    state.l_trigger = data[4];
-    state.r_trigger = data[5];
-    
-    state.l_joystick.x = (data[ 7] << 8) + data[ 6];
-    state.l_joystick.y = (data[ 9] << 8) + data[ 8];
-    state.r_joystick.x = (data[11] << 8) + data[10];
-    state.r_joystick.y = (data[13] << 8) + data[12];
-    
-    return state;
-}
-
-void log_controller_state(ControllerState state) {
-    DECL_BUTTON(state, r3);
-    DECL_BUTTON(state, l3);
-    
-    DECL_BUTTON(state, back);
-    DECL_BUTTON(state, start);
-    
-    DECL_BUTTON_NESTED(state, dpad, dpadr);
-    DECL_BUTTON_NESTED(state, dpad, dpadl);
-    DECL_BUTTON_NESTED(state, dpad, dpadd);
-    DECL_BUTTON_NESTED(state, dpad, dpadu);
-    
-    DECL_BUTTON_NESTED(state, main_buttons, y);
-    DECL_BUTTON_NESTED(state, main_buttons, x);
-    DECL_BUTTON_NESTED(state, main_buttons, b);
-    DECL_BUTTON_NESTED(state, main_buttons, a);
-    
-    DECL_BUTTON(state, xbox);
-    
-    DECL_BUTTON(state, r_bump);
-    DECL_BUTTON(state, l_bump);
-    
-    
-    os_log(
-           OS_LOG_DEFAULT,
-           "%{public}s%{public}s%{public}s%{public}s%{public}s%{public}s%{public}s%{public}s%{public}s%{public}s%{public}s%{public}s%{public}s%{public}s%{public}s",
-           r3, l3,
-           back, start,
-           dpad_dpadr, dpad_dpadl, dpad_dpadd, dpad_dpadu,
-           main_buttons_y, main_buttons_x, main_buttons_b, main_buttons_a,
-           xbox,
-           r_bump, l_bump);
-    os_log(
-           OS_LOG_DEFAULT,
-           "lt: %{public}u   rt: %{public}u   ljoy: (%{public}d, %{public}d)   rjoy: (%{public}d, %{public}d)",
-           state.l_trigger,
-           state.r_trigger,
-           state.l_joystick.x, state.l_joystick.y,
-           state.r_joystick.x, state.r_joystick.y
-           );
-}
-
-ControlPipes apply_control_data_interface_endpoints(const IOUSBConfigurationDescriptor *configurationDescriptor, const IOUSBInterfaceDescriptor *interfaceDescriptor);
 
 
 void free_ivars(ControllerSupport360 *provider, ControllerSupport360_IVars *ivars) {
@@ -228,7 +104,7 @@ void free_ivars(ControllerSupport360 *provider, ControllerSupport360_IVars *ivar
 bool ControllerSupport360::init() {
     bool result = false;
     
-    LOG_CURR_FUNC();
+    LOG_CURR_FUNC(DEBUG_LOG);
     
     result = super::init();
     RETURN_TRAP(result, true, {});
@@ -243,7 +119,7 @@ kern_return_t IMPL(ControllerSupport360, Start) {
     kern_return_t ret;
     
     
-    LOG_CURR_FUNC();
+    LOG_CURR_FUNC(RELEASE_LOG);
     
     ret = Start(provider, SUPERDISPATCH);
     RETURN_TRAP(ret, kIOReturnSuccess, Stop(provider, SUPERDISPATCH));
@@ -256,7 +132,7 @@ kern_return_t IMPL(ControllerSupport360, Start) {
     
     auto device_descriptor = ivars->device->CopyDeviceDescriptor();
     RETURN_TRAP(device_descriptor == NULL, false, EXIT_WITH_TARGET(kIOReturnIOError));
-    os_log(OS_LOG_DEFAULT,
+    level_aware_log(DEBUG_LOG,
            "product: 0x%{public}04x" "   "
            "device class: 0x%{public}02x" "   "
            "manufacturer: 0x%{public}04x",
@@ -267,7 +143,6 @@ kern_return_t IMPL(ControllerSupport360, Start) {
     
     ret = ivars->device->SetConfiguration(1, false);
     RETURN_TRAP(ret, kIOReturnSuccess, EXIT_UNSPEC_TARGET());
-    os_log(OS_LOG_DEFAULT, "imagine if this just worked");
     
     auto config_descriptor = ivars->device->CopyConfigurationDescriptor(this);
     RETURN_TRAP(config_descriptor == NULL, false, EXIT_WITH_TARGET(kIOReturnIOError));
@@ -318,55 +193,23 @@ kern_return_t IMPL(ControllerSupport360, Start) {
     ivars->main_data_input.max_packet_size = cp.input_max_packet_size;
     
     ret = ivars->main_data_input.in_pipe->AsyncIO(ivars->main_data_input.in_data, ivars->main_data_input.max_packet_size, ivars->main_data_input.handler, 0);
+    RETURN_TRAP(ret, kIOReturnSuccess, EXIT_WITH_TARGET(kIOReturnError));
     
-    return ret;
+    
+    ret = RegisterService();
+    RETURN_TRAP(ret, kIOReturnSuccess, EXIT_UNSPEC_TARGET());
+    
+    return kIOReturnSuccess;
 }
 
 
 
-ControlPipes apply_control_data_interface_endpoints(const IOUSBConfigurationDescriptor *configurationDescriptor, const IOUSBInterfaceDescriptor *interfaceDescriptor) {
-    ControlPipes result = ControlPipes {
-        0,
-        0,
-        0,
-        0
-    };
-    IOUSBEndpointDescriptor const *currEndpoint = NULL;
-    while (true) {
-        currEndpoint = IOUSBGetNextEndpointDescriptor(configurationDescriptor, interfaceDescriptor, (const IOUSBDescriptorHeader *) currEndpoint);
-        if (currEndpoint == NULL) {
-            break;
-        }
-        // All input endpoints have the highest bit set, and vice versa for outputs.
-        if (currEndpoint->bEndpointAddress & 0x80) {
-            if (result.input) {
-                // 2 input endpoints on the first interface for some reason?
-                os_log(OS_LOG_DEFAULT, "Expected 1 input endpoint (0x%{public}02x), but also got 0x%{public}02x", result.input, currEndpoint->bEndpointAddress);
-            } else {
-                os_log(OS_LOG_DEFAULT, "Input endpoint get! 0x%{public}02x", currEndpoint->bEndpointAddress);
-            }
-            result.input = currEndpoint->bEndpointAddress;
-            // Storing this because it's annoying to get from the endpoint later.
-            result.input_max_packet_size = currEndpoint->wMaxPacketSize;
-        } else {
-            if (result.output) {
-                // 2 output endpoints on the first interface for some reason?
-                os_log(OS_LOG_DEFAULT, "Expected 1 output endpoint (0x%{public}02x), but also got 0x%{public}02x", result.output, currEndpoint->bEndpointAddress);
-            } else {
-                os_log(OS_LOG_DEFAULT, "Output endpoint get! 0x%{public}02x", currEndpoint->bEndpointAddress);
-            }
-            result.output = currEndpoint->bEndpointAddress;
-            // Storing this because it's annoying to get from the endpoint later.
-            result.output_max_packet_size = currEndpoint->wMaxPacketSize;
-        }
-    }
-    
-    return result;
-}
 
 void IMPL(ControllerSupport360, ReadControllerInput) {
     kern_return_t ret;
     IOAddressSegment segment;
+    
+//    if (!ivars->hid_device) NewUserClient();
     
 //    if (!++ivars->main_data_input.iters) {
 //        uint64_t new_time = clock_gettime_nsec_np(CLOCK_UPTIME_RAW);
@@ -397,15 +240,39 @@ void IMPL(ControllerSupport360, ReadControllerInput) {
 }
 
 kern_return_t IMPL(ControllerSupport360, Stop) {
-    LOG_CURR_FUNC();
+    LOG_CURR_FUNC(RELEASE_LOG);
     
-    kern_return_t ret = Stop(provider, SUPERDISPATCH);
+    kern_return_t ret = STOP;
 
     return ret;
 }
 
 void ControllerSupport360::free() {
-    LOG_CURR_FUNC();
+    LOG_CURR_FUNC(DEBUG_LOG);
     free_ivars(this, ivars);
+    super::free();
 }
 
+
+
+kern_return_t IMPL(ControllerSupport360, NewUserClient) {
+    kern_return_t ret;
+    IOService *child_service;
+    IOUserHIDEventService *controller_hid_system_interface;
+    
+    level_aware_log(DEBUG_LOG, "imagine if this just worked 2 %{public}s", __FUNCTION__);
+    
+    ret = Create(this, "GamepadClientProperties", &child_service);
+    RETURN_TRAP(ret, kIOReturnSuccess, EXIT_WITH_TARGET(ret));
+
+    controller_hid_system_interface = OSDynamicCast(IOUserHIDEventService, child_service);
+    RETURN_TRAP(controller_hid_system_interface == NULL, false, {
+        child_service->release();
+        free_ivars(this, ivars);
+        Stop(this);
+    });
+
+    ivars->hid_device = controller_hid_system_interface;
+
+    return kIOReturnSuccess;
+}

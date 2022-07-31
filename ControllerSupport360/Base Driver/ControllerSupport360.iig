@@ -12,7 +12,6 @@
 #include <DriverKit/IOService.iig>
 #include <USBDriverKit/IOUSBHostInterface.iig>
 #include <USBDriverKit/IOUSBHostPipe.iig>
-//#include <USBDriverKit/USBDriverKitDefs.iig>
 
 class ControllerSupport360: public IOService {
 public:
@@ -20,6 +19,8 @@ public:
     virtual kern_return_t Start(IOService * provider) override;
     virtual kern_return_t Stop(IOService *provider) override;
     virtual void free() override;
+    
+    virtual kern_return_t NewUserClient(uint32_t type, IOUserClient** userClient) override;
     
 protected:
     virtual void ReadControllerInput(OSAction *action, IOReturn status, uint32_t actualByteCount, uint64_t completionTimestamp);

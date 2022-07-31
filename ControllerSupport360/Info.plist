@@ -8,6 +8,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -29,6 +36,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -50,6 +64,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -71,6 +92,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -92,6 +120,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -113,6 +148,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -134,6 +176,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -155,6 +204,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -176,6 +232,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -197,6 +260,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -218,6 +288,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -239,6 +316,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -260,6 +344,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -281,6 +372,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -302,6 +400,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -323,6 +428,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -344,6 +456,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -365,6 +484,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -386,6 +512,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -407,6 +540,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -428,6 +568,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -449,6 +596,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -470,6 +624,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -491,6 +652,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -512,6 +680,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -533,6 +708,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -554,6 +736,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -575,6 +764,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -596,6 +792,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -617,6 +820,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -638,6 +848,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -659,6 +876,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -680,6 +904,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -701,6 +932,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -722,6 +960,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -743,6 +988,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -764,6 +1016,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -785,6 +1044,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -806,6 +1072,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -827,6 +1100,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -848,6 +1128,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -869,6 +1156,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -890,6 +1184,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -911,6 +1212,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -932,6 +1240,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -953,6 +1268,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -974,6 +1296,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -995,6 +1324,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -1016,6 +1352,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -1037,6 +1380,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -1058,6 +1408,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -1079,6 +1436,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -1100,6 +1464,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -1121,6 +1492,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -1142,6 +1520,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -1163,6 +1548,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -1184,6 +1576,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -1205,6 +1604,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -1226,6 +1632,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -1247,6 +1660,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -1268,6 +1688,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -1289,6 +1716,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -1310,6 +1744,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -1331,6 +1772,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -1352,6 +1800,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -1373,6 +1828,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -1394,6 +1856,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -1415,6 +1884,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -1436,6 +1912,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -1457,6 +1940,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -1478,6 +1968,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -1499,6 +1996,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -1520,6 +2024,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -1541,6 +2052,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -1562,6 +2080,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -1583,6 +2108,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -1604,6 +2136,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -1625,6 +2164,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -1646,6 +2192,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -1667,6 +2220,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -1688,6 +2248,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -1709,6 +2276,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -1730,6 +2304,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -1751,6 +2332,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -1772,6 +2360,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -1793,6 +2388,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -1814,6 +2416,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -1835,6 +2444,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -1856,6 +2472,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -1877,6 +2500,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -1898,6 +2528,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -1919,6 +2556,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -1940,6 +2584,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -1961,6 +2612,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -1982,6 +2640,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -2003,6 +2668,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -2024,6 +2696,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -2045,6 +2724,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -2066,6 +2752,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -2087,6 +2780,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -2108,6 +2808,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -2129,6 +2836,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -2150,6 +2864,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -2171,6 +2892,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -2192,6 +2920,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -2213,6 +2948,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -2234,6 +2976,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -2255,6 +3004,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -2276,6 +3032,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -2297,6 +3060,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -2318,6 +3088,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -2339,6 +3116,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -2360,6 +3144,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -2381,6 +3172,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -2402,6 +3200,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -2423,6 +3228,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -2444,6 +3256,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -2465,6 +3284,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -2486,6 +3312,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -2507,6 +3340,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -2528,6 +3368,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -2549,6 +3396,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -2570,6 +3424,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -2591,6 +3452,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -2612,6 +3480,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -2633,6 +3508,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -2654,6 +3536,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -2675,6 +3564,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -2696,6 +3592,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -2717,6 +3620,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -2738,6 +3648,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -2759,6 +3676,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -2780,6 +3704,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -2801,6 +3732,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -2822,6 +3760,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -2843,6 +3788,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -2864,6 +3816,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -2885,6 +3844,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -2906,6 +3872,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -2927,6 +3900,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -2948,6 +3928,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -2969,6 +3956,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -2990,6 +3984,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -3011,6 +4012,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -3032,6 +4040,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -3053,6 +4068,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -3074,6 +4096,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -3095,6 +4124,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -3116,6 +4152,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -3137,6 +4180,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -3158,6 +4208,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -3179,6 +4236,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -3200,6 +4264,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -3221,6 +4292,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -3242,6 +4320,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -3263,6 +4348,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -3284,6 +4376,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -3305,6 +4404,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -3326,6 +4432,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -3347,6 +4460,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -3368,6 +4488,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -3389,6 +4516,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -3410,6 +4544,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -3431,6 +4572,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -3452,6 +4600,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -3473,6 +4628,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -3494,6 +4656,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -3515,6 +4684,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -3536,6 +4712,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -3557,6 +4740,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -3578,6 +4768,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -3599,6 +4796,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -3620,6 +4824,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -3641,6 +4852,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -3662,6 +4880,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -3683,6 +4908,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -3704,6 +4936,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -3725,6 +4964,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -3746,6 +4992,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -3767,6 +5020,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -3788,6 +5048,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -3809,6 +5076,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -3830,6 +5104,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -3851,6 +5132,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -3872,6 +5160,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -3893,6 +5188,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -3914,6 +5216,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -3935,6 +5244,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -3956,6 +5272,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -3977,6 +5300,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -3998,6 +5328,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -4019,6 +5356,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -4040,6 +5384,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -4061,6 +5412,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -4082,6 +5440,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -4103,6 +5468,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -4124,6 +5496,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -4145,6 +5524,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -4166,6 +5552,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -4187,6 +5580,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -4208,6 +5608,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -4229,6 +5636,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -4250,6 +5664,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -4271,6 +5692,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -4292,6 +5720,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -4313,6 +5748,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -4334,6 +5776,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -4355,6 +5804,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -4376,6 +5832,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -4397,6 +5860,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -4418,6 +5888,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -4439,6 +5916,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -4460,6 +5944,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -4481,6 +5972,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -4502,6 +6000,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -4523,6 +6028,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -4544,6 +6056,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -4565,6 +6084,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -4586,6 +6112,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -4607,6 +6140,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -4628,6 +6168,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -4649,6 +6196,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -4670,6 +6224,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
@@ -4691,6 +6252,13 @@
 		<dict>
 			<key>CFBundleIdentifierKernel</key>
 			<string>com.apple.kpi.iokit</string>
+			<key>GamepadClientProperties</key>
+			<dict>
+				<key>IOClass</key>
+				<string>IOUserUserClient</string>
+				<key>IOUserClass</key>
+				<string>ControllerDevice</string>
+			</dict>
 			<key>IOClass</key>
 			<string>IOUserService</string>
 			<key>IOMatchCategory</key>
